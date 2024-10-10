@@ -10,6 +10,7 @@
     "upload": "mongoimport --db property --collection properties --file C:/Users/lakhs/Desktop/properties.json --jsonArray"
   },
   "dependencies": {
+    "cloudinary": "^2.5.1",
     "mongodb": "^6.9.0",
     "mongoose": "^8.7.0",
     "next": "14.2.14",
