@@ -1,6 +1,8 @@
-const PropertyAddForHtmlforHtmlm = () => {
+import addProperty from "../actions/addProperty";
+
+const PropertyAddForm = () => {
   return (
-    <form>
+    <form action={addProperty}>
       <div classNam="mb-4">
         <label forHtml="type" className="block text-gray-700 font-bold mb-2">
           Property Type
@@ -336,12 +338,12 @@ const PropertyAddForHtmlforHtmlm = () => {
         <input
           type="text"
           id="seller_name"
-          name="seller_info.name."
+          name="seller_info.name"
           className="border rounded w-full py-2 px-3"
           placeholder="Name"
         />
       </div>
-      <div classNam="mb-4">
+      <div className="mb-4">
         <label
           forHtml="seller_email"
           className="block text-gray-700 font-bold mb-2"
@@ -400,4 +402,4 @@ const PropertyAddForHtmlforHtmlm = () => {
   );
 };
 
-export default PropertyAddForHtmlforHtmlm;
+export default PropertyAddForm;
